@@ -1,0 +1,607 @@
+body,ul,li,ol,p,h1,h2,h3,h4,h5,h6,button,figure{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+img{
+    border:0;
+}
+a{
+    text-decoration: none;
+}
+.headad{
+    height: 60px;
+    background:#282828;
+}
+.close{
+    width: 16px;
+    height: 16px;
+    background: red;
+    margin:21px 10px 21px 12px;
+    float: left;
+}
+.logo{
+    width: 44px;
+    height: 44px;
+    background: yellow;
+    float: left;
+    margin: 8px 0;
+}
+.text{
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 12px 3px;
+}
+.xiaz{
+    font-size: 12px;
+    color: #fff;
+    line-height: 16px;
+}
+.xiaz span{
+    color:#EDD32D
+}
+.lingq{
+    width: 23.5%;
+    height: 44px;
+    background: #56B431;
+    border-radius: 3px;
+    margin:8px 5px;
+    float: right;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+}
+.searchBox{
+    height: 50px;
+    background: #f7f7f7;
+    float: left;
+}
+.search{
+    width: 95%;
+    height: 36px;
+    margin:7px auto;
+}
+.search input{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border:1px solid #e8e8e8;
+    border-radius: 5px;
+    padding:5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.bannerBox{
+    width: 100%;
+    height: 176px;
+}
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: rgba(255,255,255,0.7);
+}
+.swiper-pagination-bullet-active {
+    background: rgba(255,255,255,1);
+}
+.iconCon{
+    float: left;
+    width: 25%;
+}
+.iconBox{
+    height: 110px;
+    margin:18px 0 0 0;
+}
+.iconImg{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin:0 auto;
+}
+.iconCon span{
+    display: block;
+    width: 100%;
+    margin:10px auto;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+}
+/*智能头条*/
+.toutBox{
+    height: 45px;
+    padding:15px 10px;
+    box-sizing: border-box;
+    border-top: 1px solid #e8e8e8;
+}
+.tout{
+    width: 100%;
+    height: 19px;
+}
+.zntt{
+    width: 22%;
+    height: 100%;
+    float: left;
+}
+.toutConsBox{
+    width: 71%;
+    margin-left: 2%;
+    float: left;
+    height: 100%;
+    padding:0 0 0 2%;
+    border-left: 1px solid #e8e8e8;
+    position: relative;
+    overflow: hidden;
+}
+.toutCons{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+
+
+}
+.toutCons span{
+    width: 15%;
+    height: 100%;
+    padding:0 2% 0 0;
+    font-size: 13px;
+    color: #FF6666;
+    line-height: 19px;
+    box-sizing: border-box;
+    float: left;
+}
+.toutCons p{
+    width: 85%;
+    height: 100%;
+    float: left;
+    font-size: 13px;
+    color: #666666;
+    line-height: 19px;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+/*掌上抢*/
+.zsqBox{
+    height: 245px;
+    background: #F4F4F4;
+    float: left;
+}
+.asq{
+    height: 233px;
+    margin-top: 12px;
+    background: #fff;
+}
+.topBox{
+    height: 45px;
+    border-bottom: 1px solid #EAEAEA;
+    padding:0 20px;
+    box-sizing: border-box;
+}
+.topBox .big{
+    width: 15%;
+    font-size: 16px;
+    color: #FF5555;
+    line-height: 45px;
+    float: left;
+}
+.timeBox{
+    width: 50%;
+    float: left;
+    line-height: 45px;
+    font-size: 13px;
+    color: #222222;
+}
+.timeBox span{
+    float: left;
+}
+.timeBox i{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border:1px solid #AAAAAA;
+    box-sizing: border-box;
+    list-style: none;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    font-style:normal;
+    margin:12px 5px;
+}
+.timeBox e{
+    float: left;
+}
+.more{
+    font-size: 14px;
+    float: right;
+    color: #222222;
+    line-height: 45px;
+}
+.btmBox{
+    height: 188px;
+    padding:12px 0;
+}
+.btmCon{
+    width: 100%;
+    height: 100%;
+    padding:0 5px;
+    float: left;
+    border-right: 1px solid red;
+    box-sizing: border-box;
+}
+.btmCon:last-child{
+    border-right: 0;
+}
+.btmConA{
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+.btmConA img{
+    display: block;
+    max-width: 114px;
+    /*width:400%;*/
+    border:0;
+    height:114px;
+    margin:0 auto;
+}
+.jies{
+    display: block;
+    width: 100%;
+    height: 15px;
+    font-size: 12px;
+    color:#555555;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.price{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 3px;
+    font-size: 14px;
+    color: #FF5555;
+}
+.price s{
+    text-align: center;
+    font-size: 12px;
+    color:#AAAAAA;
+}
+/*明星单品*/
+.floor{
+    height: auto;
+    float: left;
+    /*background: #F4F4F4;*/
+}
+.floor .top{
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    background: #F4F4F4;
+}
+.floor .top .topCon{
+    /*width: 27%;*/
+    width:auto;
+    height: 100%;
+    margin:0 auto;
+}
+.floor .top .topCon p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #666666;
+}
+.floor .top p span{
+    height: 100%;
+    color: #CCCCCC;
+    padding:0 3px;
+}
+.content{
+    height: auto;
+}
+.floor1 .contentLi{
+    width: 50%;
+    height: 278px;
+    padding: 10px;
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    float: left;
+}
+.floor1 .contentLi:nth-child(2n){
+    border-right: 0;
+}
+.contentA{
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+.floor1 .contentA .h5{
+    /*width: auto;*/
+    height: 30px;
+    margin:0 auto;
+    border:1px solid #E1E1E1;
+    border-radius:2em;
+    line-height: 30px;
+    padding:3px 5px;
+    box-sizing: border-box;
+}
+.contentA .h5 .star{
+    display: block;
+    width: 21px;
+    height: 21px;
+    float: left;
+}
+.contentA .h5 .word{
+    width: 80%;
+    height: 20px;
+    padding:0 0 0 5px;
+    box-sizing: border-box;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #222222;
+    float: left;
+}
+.floor1 .product{
+    width: 95%;
+    height: 163px;
+    margin:10px auto;
+}
+.floor1 .intro{
+    display: block;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+    color: #555;
+}
+.floor1 .fprice{
+    display: block;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+    color: #FF5555;
+}
+/*新品上市*/
+.floor2 .contentLi{
+    width: 100%;
+    height: 300px;
+    border-bottom: 15px solid #F4F4F4;
+}
+.floor2 .contentLi:last-child{
+    border-bottom:0;
+}
+.floor2 .contentLiA{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.floor2 .photo{
+    display: block;
+    width: 100%;
+    height: 211px;
+    position: relative;
+}
+.floor2 .photo img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.floor2 .photo span{
+    display: block;
+    width: 64px;
+    height: 32px;
+    position: absolute;
+    right:0;
+    bottom: 30px;
+    background: rgba(0,0,0,0.5);
+    font-size: 16px;
+    font-weight:600;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+.floor2 .contentLiA strong{
+    display: block;
+    font-size: 14px;
+    color:#222222;
+    padding:20px 20px 5px;
+}
+.floor2 .contentLiA p{
+    background: #fff;
+    font-size: 12px;
+    color: #999999;
+    padding:10px 20px 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+/*手机及配件*/
+.floor3 .tContent{
+    width: 100%;
+    height: 176px;
+}
+.floor3 .tContent a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.floor3 .contentLi{
+    height: 270px;
+}
+.floor3 .contentLi a{
+    position: relative;
+}
+.floor3 .name{
+    font-size: 13px;
+    color:#555;
+    text-align: left;
+    padding-left:7px;
+}
+.floor3 .xiangq{
+    font-size: 12px;
+    color: #999;
+    text-align: left;
+    padding-left:7px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.floor3 .f3price{
+    font-size: 15px;
+    color: #FF5555;
+    text-align: left;
+    padding-left:6px;
+}
+.floor3 .contentLi del{
+    font-size: 14px;
+    color: #AAAAAA;
+}
+.floor3 .contentLi .hot{
+    position: absolute;
+    bottom: 12px;
+    right: 5px;
+    width: 16%;
+    height: 17px;
+    border-radius: 3px;
+    background: #FF6666;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 17px;
+}
+/*底部*/
+.footer .top{
+    width: 100%;
+    height: 42px;
+    line-height: 52px;
+    background: #F4F4F4;
+}
+.footer .top .topCon a{
+    display: block;
+    width: 100%;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #666666;
+}
+.footbtm{
+    height:auto;
+    border-top: 1px solid #CCCCCC;
+}
+.footUl{
+    height: 93px;
+    padding:15px 0;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.footLi{
+    width: 33.333333%;
+    height: 100%;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box;
+    float: left;
+}
+.footLi:last-child{
+    border-right: none;
+}
+.footLi span{
+    display: block;
+    width: 28%;
+    height:55%;
+    margin:0 auto;
+    border:1px solid #ADADAD;
+    font-size: 14px;
+    color: #666;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.5em;
+}
+.footLi p{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color:#666;
+}
+.footbtm .phone{
+    width: 100%;
+    height: 44px;
+    font-size: 13px;
+    color: #999;
+    line-height: 54px;
+    text-align: center;
+}
+.footbtm .phone a{
+    color: #999;
+}
+.footbtm .banq{
+    width: 100%;
+    height: 44px;
+    font-size: 13px;
+    color: #999;
+    line-height: 24px;
+    text-align: center;
+}
+/*底部固定*/
+.footfix{
+    width: 100%;
+    height: 49px;
+    background: #fff;
+    position: fixed;
+    bottom:0;
+    border-top: 1px solid #ccc;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.footfix li{
+    width: 25%;
+    height: 100%;
+    padding:10px 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.footicon{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    line-height: 15px;
+    font-size: 20px!important;
+    color: #6C6C6C;
+}
+.footfix li span{
+    display: block;
+    width: 100%;
+    color: #777777;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+}
+.back{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: rgba(0,0,0,0.5);
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+}
